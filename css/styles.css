@@ -822,7 +822,6 @@ address {
 
 .modal-form-wrapper {
   position: relative;
-  margin-bottom: 10px;
 }
 
 .modal-form-label {
@@ -831,8 +830,14 @@ address {
 }
 
 .modal-form-group {
+  display: block;
+  margin-bottom: 10px;
   font-size: 12px;
   color: #757575;
+}
+
+.modal-form-group:last-child {
+  margin-bottom: 0px;
 }
 
 .modal-form-field {
@@ -900,6 +905,7 @@ address {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .modal-agreement {
@@ -910,7 +916,6 @@ address {
   align-items: center;
 
   gap: 7px;
-  margin-bottom: 30px;
   text-align: center;
   line-height: 1.7;
   color: var(--title-text-color);
